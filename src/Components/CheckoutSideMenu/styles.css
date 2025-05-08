@@ -1,0 +1,19 @@
+.checkout-side-menu {
+    width: 360px;
+    height: calc(100vh - 68px);
+    top: 68px;
+  }
+
+  .scrollable-cards{
+    overflow-y: scroll;
+  }
+
+
+  .scrollable-cards::-webkit-scrollbar {
+    width: 3px; /* Grosor del scroll */
+}
+
+.scrollable-cards::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 5px; /* Ocultar el thumb del scroll */
+}

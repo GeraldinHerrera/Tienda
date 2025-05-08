@@ -1,0 +1,7 @@
+.scrollable-Cards{
+    overflow-y: auto;
+  }
+
+  .scrollable-Cards::-webkit-scrollbar {
+    display: none; 
+}
